@@ -40,9 +40,13 @@ Além disso, vale mencionar que o site abrange a função dos usuários criarem 
 
 ### 3.1. Modelagem do banco de dados  (Semana 3)
 
-*Posicione aqui os diagramas de modelos relacionais do seu banco de dados, apresentando todos os esquemas de tabelas e suas relações. Utilize texto para complementar suas explicações, se necessário.*
+#### 3.1.1. Modelagem Conceitual do banco de dados
 
-*Posicione também o modelo físico com o Schema do BD (arquivo .sql)*
+<p align = "center">Figura 1: Modelagem Conceitual</p>
+
+<p align="center"> <img src="https://github.com/user-attachments/assets/090020b8-ccd4-48dd-a737-b7b36fe89038" alt="Modelagem Conceitual"> </p>
+
+<p align = "center">Fonte: material produzido pela autora por intermédio do software DRAW.io (2025).</p> <br>
 
 ### 3.1.1 BD e Models (Semana 5)
 *Descreva aqui os Models implementados no sistema web*
