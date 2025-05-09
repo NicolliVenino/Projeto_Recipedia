@@ -6,7 +6,7 @@
 # Estrutura de pastas
 &nbsp; &nbsp; &nbsp; &nbsp;Segue abaixo a estrutura de pastas do projeto.
 ```
-gerenciadorDeTarefas-ProjetoIndividual/
+Projeto_Recipedial/
 │
 ├── assets/                # Arquivos públicos como imagens e fontes
 |   └── modelo-conceitual-banco.png 
