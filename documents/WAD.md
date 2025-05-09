@@ -48,6 +48,14 @@ Além disso, vale mencionar que o site abrange a função dos usuários criarem 
 
 <p align = "center">Fonte: material produzido pela autora por intermédio do software DRAW.io (2025).</p> <br>
 
+#### 3.1.2. Modelagem Relacional do banco de dados
+
+<p align = "center">Figura 2: Modelagem Relacional</p>
+
+<p align="center"> <img src="https://github.com/user-attachments/assets/7ef4c3e3-b009-40dd-9518-188d12870680" alt="Modelagem Relacional"> </p>
+
+<p align = "center">Fonte: material produzido pela autora por intermédio do software drawSQL (2025).</p> <br>
+
 ### 3.1.1 BD e Models (Semana 5)
 *Descreva aqui os Models implementados no sistema web*
 
