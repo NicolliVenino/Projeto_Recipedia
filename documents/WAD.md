@@ -56,6 +56,14 @@ Além disso, vale mencionar que o site abrange a função dos usuários criarem 
 
 <p align = "center">Fonte: material produzido pela autora por intermédio do software drawSQL (2025).</p> <br>
 
+### Informações Adicionais: 
+&nbsp; &nbsp; &nbsp; &nbsp;No que tange às entidades (tabelas), é perceptível a diferença entre a modelagem conceitual e a modelagem relacional supracitada. Por isso, urge justificar essa disparidade por intermédio do conceito de normalização.
+
+&nbsp; &nbsp; &nbsp; &nbsp;Em relação à modelagem relacional, esta encontra-se na primeira forma normal se - e somente se - cada atributo seu possuir um único valor, ou seja, as colunas não podem conter valores multivalorados ou valores compostos. Sob essa análise, nota-se que a figura 2 adiciona a tabela "users-formations" e "ingredients", pois "formações" e "ingredientes" em forma de atributos acarretariam o problema da ocorrência de valores multivalorados nas tabelas "users" e "recipes", respectivamente - haja vista que uma receita contempla mais de um ingrediente e um usuário pode contemplar mais de uma formação. Com isso, a modelagem relacional passou para a primeira forma normal.   
+
+&nbsp; &nbsp; &nbsp; &nbsp;No entanto, ainda foi necessário normalizar a modelagem relacional novamente, passando-a para a sua terceira forma normal (vale mencionar que não foi necessário normalizá-la para a segunda forma normal, pois esta já encontrava-se desse modo, sem haver demandas de mudanças para isso). Tal processo ocorre de maneira a eliminar atributos que podem ser obtidos pela equação de outros atributos, mitigando a dependência entre eles - exceto pela chave primária - e, assim, evitando a incoerência desses dados por falhas humanas. Com isso em mente, o atributo "total_time" foi excluído da entidade "recipes", pois é possível obtê-lo por intermédio da soma dos atributos "prep_time" e "cook_time".
+
+&nbsp; &nbsp; &nbsp; &nbsp;Por último, cabe destacar que as tabelas "folders-recipes" e "recipes ingredients" foram criadas em função da cardinalidade N:N das entidades "folders" com "recipes" e das entidades "recipes" com "ingredients", respectivamente.
 
 #### 3.1.3. Modelagem física com o Schema do banco de dados
 
