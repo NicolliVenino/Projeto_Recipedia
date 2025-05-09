@@ -28,7 +28,17 @@ Além disso, vale mencionar que o site abrange a função dos usuários criarem 
 
 ### 2.1. Personas (Semana 01 - opcional)
 
-*Posicione aqui sua(s) Persona(s) em forma de texto markdown com imagens, ou como imagem de template preenchido. Atualize esta seção ao longo do módulo se necessário.*
+<p align = "center">Figura 1: Primeira Persona</p>
+
+<p align="center"> <img src="https://github.com/user-attachments/assets/8a46f63b-4cca-4274-8198-14b85521bb76" alt="Primeira Persona"> </p>
+
+<p align = "center">Fonte: material produzido pela autora (2025) - representação física da persona elaborada por inteligência artificial.</p> <br>
+
+<p align = "center">Figura 2: Segunda Persona</p>
+
+<p align="center"> <img src="https://github.com/user-attachments/assets/471f5e18-b1b7-4f4b-a1d6-05b72775ef28" alt="Segunda Persona"> </p>
+
+<p align = "center">Fonte: material produzido pela autora (2025) - representação física da persona elaborada por inteligência artificial.</p> <br>
 
 ### 2.2. User Stories (Semana 01 - opcional)
 
@@ -42,7 +52,7 @@ Além disso, vale mencionar que o site abrange a função dos usuários criarem 
 
 #### 3.1.1. Modelagem Conceitual do banco de dados
 
-<p align = "center">Figura 1: Modelagem Conceitual</p>
+<p align = "center">Figura 3: Modelagem Conceitual</p>
 
 <p align="center"> <img src="https://github.com/user-attachments/assets/090020b8-ccd4-48dd-a737-b7b36fe89038" alt="Modelagem Conceitual"> </p>
 
@@ -50,7 +60,7 @@ Além disso, vale mencionar que o site abrange a função dos usuários criarem 
 
 #### 3.1.2. Modelagem Relacional do banco de dados
 
-<p align = "center">Figura 2: Modelagem Relacional</p>
+<p align = "center">Figura 4: Modelagem Relacional</p>
 
 <p align="center"> <img src="https://github.com/user-attachments/assets/7ef4c3e3-b009-40dd-9518-188d12870680" alt="Modelagem Relacional"> </p>
 
@@ -59,7 +69,7 @@ Além disso, vale mencionar que o site abrange a função dos usuários criarem 
 ### Informações Adicionais: 
 &nbsp; &nbsp; &nbsp; &nbsp;No que tange às entidades (tabelas), é perceptível a diferença entre a modelagem conceitual e a modelagem relacional supracitada. Por isso, urge justificar essa disparidade por intermédio do conceito de normalização.
 
-&nbsp; &nbsp; &nbsp; &nbsp;Em relação à modelagem relacional, esta encontra-se na primeira forma normal se - e somente se - cada atributo seu possuir um único valor, ou seja, as colunas não podem conter valores multivalorados ou valores compostos. Sob essa análise, nota-se que a figura 2 adiciona a tabela "users-formations" e "ingredients", pois "formações" e "ingredientes" em forma de atributos acarretariam o problema da ocorrência de valores multivalorados nas tabelas "users" e "recipes", respectivamente - haja vista que uma receita contempla mais de um ingrediente e um usuário pode contemplar mais de uma formação. Com isso, a modelagem relacional passou para a primeira forma normal.   
+&nbsp; &nbsp; &nbsp; &nbsp;Em relação à modelagem relacional, esta encontra-se na primeira forma normal se - e somente se - cada atributo seu possuir um único valor, ou seja, as colunas não podem conter valores multivalorados ou valores compostos. Sob essa análise, nota-se que a figura 4 adiciona a tabela "users-formations" e "ingredients", pois "formações" e "ingredientes" em forma de atributos acarretariam o problema da ocorrência de valores multivalorados nas tabelas "users" e "recipes", respectivamente - haja vista que uma receita contempla mais de um ingrediente e um usuário pode contemplar mais de uma formação. Com isso, a modelagem relacional passou para a primeira forma normal.   
 
 &nbsp; &nbsp; &nbsp; &nbsp;No entanto, ainda foi necessário normalizar a modelagem relacional novamente, passando-a para a sua terceira forma normal (vale mencionar que não foi necessário normalizá-la para a segunda forma normal, pois esta já encontrava-se desse modo, sem haver demandas de mudanças para isso). Tal processo ocorre de maneira a eliminar atributos que podem ser obtidos pela equação de outros atributos, mitigando a dependência entre eles - exceto pela chave primária - e, assim, evitando a incoerência desses dados por falhas humanas. Com isso em mente, o atributo "total_time" foi excluído da entidade "recipes", pois é possível obtê-lo por intermédio da soma dos atributos "prep_time" e "cook_time".
 
