@@ -42,8 +42,25 @@ Além disso, vale mencionar que o site abrange a função dos usuários criarem 
 
 ### 2.2. User Stories (Semana 01 - opcional)
 
-*Posicione aqui a lista de User Stories levantadas para o projeto. Siga o template de User Stories e utilize a referência USXX para numeração (US01, US02, US03, ...). Indique todas as User Stories mapeadas, mesmo aquelas que não forem implementadas ao longo do projeto. Não se esqueça de explicar o INVEST de 1 User Storie prioritária.*
+- <strong>US01</strong> - Eu, como amante de culinária, gostaria de salvar receitas em pastas organizadas e personalizadas de modo prático e rápido para tê-las sempre acessíveis e visíveis para mim, sem despender de muito tempo ou esforço para isso.
 
+&nbsp; &nbsp; &nbsp; &nbsp;<strong>I:</strong> a ação que diz respeito ao usuário salvar receitas em pastas personalizadas é a mais fundamental funcionalidade do programa, de modo que é implementada sem dependência de derivações de outras user stories. <br></br>
+&nbsp; &nbsp; &nbsp; &nbsp;<strong>N:</strong> a user storie supracitada é negociável, ou seja, o desejo de salvar as receitas em pastas totalmente personalizadas pode ser adaptada, se necessário, sem perder valor ao usuário. <br></br>
+&nbsp; &nbsp; &nbsp; &nbsp;<strong>V:</strong> a user storie é valiosa, pois descreve, notoriamente, o impacto no cotidiano do usuário, destacando como será importante para suprir suas necessidades e amenizar suas dores. <br></br>
+&nbsp; &nbsp; &nbsp; &nbsp;<strong>E:</strong> é possível elaborar estimativas a partir da user storie, pois o desejo do usuário foi bem específico. <br></br>
+&nbsp; &nbsp; &nbsp; &nbsp;<strong>S:</strong> no que tange ao tamanho da funcionalidade descrita na user storie, pode-se afirmar que é possível executá-la dentro do prazo estabelecido e com os recursos dispostos. <br></br>
+&nbsp; &nbsp; &nbsp; &nbsp;<strong>T:</strong> a user storie expressa clareza o suficiente para que seja possível validá-la por meio de testes.
+
+- <strong>US02</strong> - Eu, como aspirador da carreira gastronômica, gostaria de publicar minhas próprias receitas na plataforma para dar visibilidade a elas, montando, assim, um portfólio no meu perfil.
+
+- <strong>US03</strong> - Eu, como usuário, gostaria de ter a liberdade e a autonomia de tornar o meu perfil público ou privado para zelar pela minha privadicidade. 
+
+- <strong>US04</strong> - Eu, como amante de culinária, gostaria de compartilhar receitas com outros usuários para trocarmos conhecimentos.
+
+- <strong>US05</strong> - Eu, como amante de culinária, gostaria de anotar nas receitas as minhas experiências individuais com a preparação do prato para me lembrar, futuramente, de aspectos específico que eu achei necessário adicionar para mim mesmo. 
+
+- <strong>US06</strong> - Eu, como indivíduo que almeja cozinhar algo novo, gostaria de filtrar as receitas de acordo com os ingredientes que tenho na minha casa para evitar gastar tempo lendo pratos que não vou conseguir fazer por escassez de recursos.
+ 
 ---
 
 ## <a name="c3"></a>3. Projeto da Aplicação Web
