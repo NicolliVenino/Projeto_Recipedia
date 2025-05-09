@@ -16,8 +16,11 @@
 
 ## <a name="c1"></a>1. Introdução (Semana 01)
 
-*Preencha com até 300 palavras – sem necessidade de fonte.*
-*Descreva brevemente o sistema que você irá desenvolver.*
+O Recipedia é uma plataforma WEB de publicação, coleção e armazenamento de receitas gastronômicas que aspira facilitar e potencializar o acesso à gastronomia, tanto para chefs renomados quanto para qualquer usuário interessado em cozinhar. Nesse sentido, o objetivo do projeto é concentrar receitas publicadas para e pela comunidade de usuários amantes de culinária, sem necessidade de diploma, ou por chefs do mercado que desejam compartilhar experiências, assim como servir de portfólio para estudantes e formados em áreas relacionadas à cozinha, de modo que possam publicar suas ideias de pratos e trocar informações entre si.
+
+Diante disso, para alcançar o escopo supracitado, o Recipedia contempla a funcionalidade de visualizar várias receitas na tela, sob as quais os usuários têm a liberdade de salvar em pastas personalizadas aquelas que melhor lhe agradar. Paralelamente, ao selecionar uma receita, o usuário tem acesso não só às informações de tempo de preparo e quantidade, mas também à opção de fazer anotações pessoais e inserir uma nota (variando de 1 a 5 estrelas). Dessa forma, a plataforma garante agradar usuários que não necessariamente possuem experiência profissional gastronômica, porém que, ainda assim, desejam exercer ou apreciar a culinária em suas vidas. 
+
+Além disso, vale mencionar que o site abrange a função dos usuários criarem receitas autorais e publicá-las na plataforma. Essas receitas ficam salvas e visíveis no perfil do usuário, sujeitas a comentários e notas de toda a comunidade. Assim também, os usuários podem “seguir” os perfis uns dos outros e trocar informações por intermédio de um chat - no entanto, é imprescindível ressaltar que tal aplicação é opcional e o usuário tem liberdade de deixar seu perfil público (no qual suas pastas e receitas autorais são transparentes à toda comunidade) ou privado. Com isso, o Recipedia atua como um portfólio no qual universitários e profissionais do campo podem tornar seu trabalho público.
 
 ---
 
