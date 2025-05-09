@@ -56,7 +56,70 @@ Além disso, vale mencionar que o site abrange a função dos usuários criarem 
 
 <p align = "center">Fonte: material produzido pela autora por intermédio do software drawSQL (2025).</p> <br>
 
-### 3.1.1 BD e Models (Semana 5)
+
+#### 3.1.3. Modelagem física com o Schema do banco de dados
+
+```sql
+CREATE TABLE users (
+  id SERIAL PRIMARY KEY,
+  first_name TEXT NOT NULL,
+  last_name TEXT NOT NULL,
+  avatar TEXT NOT NULL,
+  username TEXT NOT NULL,
+  email TEXT NOT NULL,
+  password TEXT NOT NULL,
+  description TEXT NOT NULL
+);
+
+CREATE TABLE user_formations  (
+  id SERIAL PRIMARY KEY,
+  id_user INT REFERENCES users(id) ON DELETE CASCADE,
+  formation TEXT NOT NULL
+);
+
+CREATE TABLE folders (
+  id SERIAL PRIMARY KEY,
+  name TEXT NOT NULL,
+  description TEXT NOT NULL,
+  id_user INT REFERENCES users(id) ON DELETE CASCADE
+);
+
+CREATE TABLE recipes (
+  id SERIAL PRIMARY KEY,
+  name TEXT NOT NULL,
+  image TEXT NOT NULL,
+  tipe TEXT NOT NULL,
+  category TEXT NOT NULL,
+  email TEXT NOT NULL,
+  directions TEXT NOT NULL,
+  prep_time INT,
+  cook_time INT,
+  servings INT,
+  yield INT,
+  score INT,
+  author TEXT NOT NULL
+);
+
+CREATE TABLE folders_recipes  (
+  id SERIAL PRIMARY KEY,
+  id_folder INT REFERENCES folders(id) ON DELETE CASCADE,
+  id_recipe INT REFERENCES recipes(id) ON DELETE CASCADE
+);
+
+CREATE TABLE ingredients (
+  id SERIAL PRIMARY KEY,
+  name TEXT NOT NULL,
+  specification TEXT NOT NULL
+);
+
+CREATE TABLE recipes_ingredients  (
+  id SERIAL PRIMARY KEY,
+  id_recipe INT REFERENCES recipes(id) ON DELETE CASCADE,
+  id_ingredient INT REFERENCES ingredients(id) ON DELETE CASCADE
+);
+
+```
+### 3.1.4 BD e Models (Semana 5)
 *Descreva aqui os Models implementados no sistema web*
 
 ### 3.2. Arquitetura (Semana 5)
