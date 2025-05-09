@@ -50,7 +50,7 @@ gerenciadorDeTarefas-ProjetoIndividual/
 
 1) Clone o projeto
 ```
-git clone https://github.com/luanalima77/gerenciadorDeTarefas-ProjetoIndividual.git
+git clone https://github.com/NicolliVenino/Projeto_Recipedia.git
 ```
 
 2) Instale as dependências
