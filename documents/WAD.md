@@ -71,7 +71,7 @@ Além disso, vale mencionar que o site abrange a função dos usuários criarem 
 
 <p align = "center">Figura 3: Modelagem Conceitual</p>
 
-<p align="center"> <img src = "../assets/modelagem_conceitual.drawio.png" align = "center"> </p>
+<p align="center"> <img src = "https://github.com/user-attachments/assets/6b8f65a7-68ba-4944-b91c-f7309829ed4b" align = "center"> </p>
 
 <p align = "center">Fonte: material produzido pela autora por intermédio do software DRAW.io (2025).</p> <br>
 
