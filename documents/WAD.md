@@ -30,7 +30,7 @@ Além disso, vale mencionar que o site abrange a função dos usuários criarem 
 
 <p align = "center">Figura 1: Primeira Persona</p>
 
-<p align="center"> <img src = "../assets/primeira_persona.png" align = "center"> </p>
+<p align="center"> <img src = "../assets/persona_primeira.png" align = "center"> </p>
 
 <p align = "center">Fonte: material produzido pela autora (2025) - representação física da persona elaborada por inteligência artificial.</p> <br>
 
