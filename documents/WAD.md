@@ -71,7 +71,7 @@ Além disso, vale mencionar que o site abrange a função dos usuários criarem 
 
 <p align = "center">Figura 3: Modelagem Conceitual</p>
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/090020b8-ccd4-48dd-a737-b7b36fe89038" alt="Modelagem Conceitual"> </p>
+<p align="center"> <img src = "../assets/modelagem_conceitual.drawio.png" align = "center"> </p>
 
 <p align = "center">Fonte: material produzido pela autora por intermédio do software DRAW.io (2025).</p> <br>
 
@@ -79,9 +79,10 @@ Além disso, vale mencionar que o site abrange a função dos usuários criarem 
 
 <p align = "center">Figura 4: Modelagem Relacional</p>
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/7ef4c3e3-b009-40dd-9518-188d12870680" alt="Modelagem Relacional"> </p>
+<p align="center"> <img src = "../assets/modelagem_relacional.png" align = "center"> </p>
 
 <p align = "center">Fonte: material produzido pela autora por intermédio do software drawSQL (2025).</p> <br>
+
 
 ### Informações Adicionais: 
 &nbsp; &nbsp; &nbsp; &nbsp;No que tange às entidades (tabelas), é perceptível a diferença entre a modelagem conceitual e a modelagem relacional supracitada. Por isso, urge justificar essa disparidade por intermédio do conceito de normalização.
