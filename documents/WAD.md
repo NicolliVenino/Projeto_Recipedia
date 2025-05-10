@@ -30,13 +30,13 @@ Além disso, vale mencionar que o site abrange a função dos usuários criarem 
 
 <p align = "center">Figura 1: Primeira Persona</p>
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/8a46f63b-4cca-4274-8198-14b85521bb76" alt="Primeira Persona"> </p>
+<p align="center"> <img src = "../assets/primeira_persona.png" align = "center"> </p>
 
 <p align = "center">Fonte: material produzido pela autora (2025) - representação física da persona elaborada por inteligência artificial.</p> <br>
 
 <p align = "center">Figura 2: Segunda Persona</p>
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/471f5e18-b1b7-4f4b-a1d6-05b72775ef28" alt="Segunda Persona"> </p>
+<p align="center"> <img src = "../assets/segunda_persona.png" align = "center"> </p>
 
 <p align = "center">Fonte: material produzido pela autora (2025) - representação física da persona elaborada por inteligência artificial.</p> <br>
 
