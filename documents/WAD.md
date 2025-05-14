@@ -79,7 +79,7 @@ Além disso, vale mencionar que o site abrange a função dos usuários criarem 
 
 <p align = "center">Figura 4: Modelagem Relacional</p>
 
-<p align="center"> <img src = "../assets/modelagem_relacional.png" align = "center"> </p>
+![modelagem_relacional](https://github.com/user-attachments/assets/f36bcd59-fd3f-46ae-8eac-12ef11ad354a)
 
 <p align = "center">Fonte: material produzido pela autora por intermédio do software drawSQL (2025).</p> <br>
 
@@ -171,7 +171,7 @@ CREATE TABLE recipes_ingredients  (
 
 ### 3.3. Wireframes (Semana 03 - opcional)
 
-*Posicione aqui as imagens do wireframe construído para sua solução e, opcionalmente, o link para acesso (mantenha o link sempre público para visualização).*
+![wireframe_recipedia](https://github.com/user-attachments/assets/914359c5-9449-42fd-b243-7a881b8ea788)
 
 ### 3.4. Guia de estilos (Semana 05 - opcional)
 
