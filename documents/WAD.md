@@ -171,7 +171,11 @@ CREATE TABLE recipes_ingredients  (
 
 ### 3.3. Wireframes (Semana 03 - opcional)
 
+<p align = "center">Figura 5: Wireframe</p>
+
 ![wireframe-recipedia](https://github.com/user-attachments/assets/74079edf-e30f-4403-8132-4374c2e6ffc8)
+
+<p align = "center">Fonte: material produzido pela autora (2025).</p> <br>
 
 ### 3.4. Guia de estilos (Semana 05 - opcional)
 
