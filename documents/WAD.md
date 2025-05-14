@@ -171,7 +171,7 @@ CREATE TABLE recipes_ingredients  (
 
 ### 3.3. Wireframes (Semana 03 - opcional)
 
-![wireframe_recipedia](https://github.com/user-attachments/assets/914359c5-9449-42fd-b243-7a881b8ea788)
+![wireframe-recipedia](https://github.com/user-attachments/assets/74079edf-e30f-4403-8132-4374c2e6ffc8)
 
 ### 3.4. Guia de estilos (Semana 05 - opcional)
 
