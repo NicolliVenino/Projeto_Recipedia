@@ -79,7 +79,7 @@ Além disso, vale mencionar que o site abrange a função dos usuários criarem 
 
 <p align = "center">Figura 4: Modelagem Relacional</p>
 
-![modelagem_relacional](https://github.com/user-attachments/assets/f36bcd59-fd3f-46ae-8eac-12ef11ad354a)
+![modelagem_relacional](https://github.com/user-attachments/assets/f36bcd59-fd3f-46ae-8eac-12ef11ad354a) 
 
 <p align = "center">Fonte: material produzido pela autora por intermédio do software drawSQL (2025).</p> <br>
 
@@ -173,7 +173,7 @@ CREATE TABLE recipes_ingredients  (
 
 <p align = "center">Figura 5: Wireframe</p>
 
-![wireframe-recipedia](https://github.com/user-attachments/assets/74079edf-e30f-4403-8132-4374c2e6ffc8)
+<p align="center"> <img src = "https://github.com/user-attachments/assets/74079edf-e30f-4403-8132-4374c2e6ffc8" align = "center"> </p>
 
 <p align = "center">Fonte: material produzido pela autora (2025).</p> <br>
 
